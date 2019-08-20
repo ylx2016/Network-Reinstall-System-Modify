@@ -336,7 +336,7 @@ if [[ "$SpikCheckDIST" == '0' ]]; then
 fi
 
 [[ "$ddMode" == '1' ]] && {
-  export SSL_SUPPORT='https://tech.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/wget_udeb_amd64.tar.gz';
+  export SSL_SUPPORT='https://raw.githubusercontent.com/ylx2016/Network-Reinstall-System-Modify/master/CoreFiles/wget_udeb_amd64.tar.gz';
   if [[ -n "$tmpURL" ]]; then
     DDURL="$tmpURL"
     echo "$DDURL" |grep -q '^http://\|^ftp://\|^https://';
