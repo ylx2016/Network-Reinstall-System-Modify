@@ -144,6 +144,14 @@ then
 	wget --no-check-certificate -qO koiok.sh 'https://raw.githubusercontent.com/ylx2016/Network-Reinstall-System-Modify/master/Network-Reinstall-System-Modify.sh' && bash koiok.sh -dd 'https://opendisk.cxthhhhh.com/OperatingSystem/Windows/Disk_Windows_DD/Disk_Windows_Server_2003_DataCenter_CN.vhd.gz'
 fi
 
+if [ $1 = '-emb' ]
+then
+	echo -e "\033[33m You have chosen to install the latest Windows_Server_2003 \033[0m"
+	echo -e "\n"
+	sleep 2s
+	wget --no-check-certificate -qO koiok.sh 'https://raw.githubusercontent.com/ylx2016/Network-Reinstall-System-Modify/master/Network-Reinstall-System-Modify.sh' && bash koiok.sh -dd 'https://ylx.me/emb'
+fi
+
 if [ $1 = '-CXT_Bare-metal_System_Deployment_Platform' ]
 then
 	echo -e "\033[33m You have chosen to install the latest CXT_Bare-metal_System_Deployment_Platform \033[0m"
