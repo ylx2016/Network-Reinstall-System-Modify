@@ -16,4 +16,8 @@ wget --no-check-certificate -qO ~/Network-Reinstall-System-Modify.sh 'https://ra
 ⑦. 一键网络重装纯净Ubuntu 16.04 bash ~/Network-Reinstall-System-Modify.sh -Ubuntu_16.04
 ⑧. 一键网络重装纯净Ubuntu 14.04 bash ~/Network-Reinstall-System-Modify.sh -Ubuntu_14.04
 
-bash ~/Network-Reinstall-System-Modify.sh -emb
+bash ~/Network-Reinstall-System-Modify.sh -DD 'https://ylx.me/emb'
+
+
+
+wget --no-check-certificate -qO ~/Network-Reinstall-System-Modify.sh 'https://raw.githubusercontent.com/yangyansong/Network-Reinstall-System-Modify-DD-/master/Network-Reinstall-System-Modify.sh' && chmod a+x ~/Network-Reinstall-System-Modify.sh
